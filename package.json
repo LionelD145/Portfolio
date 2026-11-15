@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-angel-digbeu",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portfolio d'Angel Ionel Digbeu — site statique (HTML, CSS, JS) avec un backend d'administration sans dépendance pour tout modifier depuis le navigateur.",
+  "scripts": {
+    "serve": "node tools/serve.mjs",
+    "admin": "node backend/server.mjs",
+    "start": "node backend/server.mjs",
+    "password": "node tools/set-password.mjs",
+    "render": "node tools/render.mjs",
+    "sync": "node tools/sync-github.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "version": 1,
+  "site": {
+    "lang": "fr",
+    "title": "Angel Ionel Digbeu — Développeur web & mobile à Abidjan",
+    "description": "Portfolio d'Angel Ionel Digbeu, développeur web et mobile à Abidjan : plateformes métier, outillage local et sites vitrines. Next.js, React, TypeScript, Python et FastAPI.",
+    "author": "Angel Ionel Digbeu",
+    "canonical": "https://lioneld145.github.io/",
+    "ogTitle": "Angel Ionel Digbeu — Développeur web & mobile",
+    "ogDescription": "Plateformes métier, outillage local et sites vitrines. Conçu à Abidjan, Côte d'Ivoire.",
+    "ogImage": "assets/img/og-image.jpg",
+    "ogImageAlt": "Aperçu du portfolio : titre, terminal de présentation et projets.",
+    "favicon": "assets/img/favicon.svg",
+    "brandMark": "A",
+    "brandName": "Angel Digbeu",
+    "brandAria": "Retour en haut — Angel Ionel Digbeu",
+    "cvFile": "assets/docs/cv.pdf",
+    "cvDownloadName": "CV-Angel-Digbeu.pdf"
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Projets",
+        "href": "#projets"
+      },
+      {
+        "label": "À propos",
+        "href": "#apropos"
+      },
+      {
+        "label": "Parcours",
+        "href": "#parcours"
+      },
+      {
+        "label": "GitHub",
+        "href": "#github"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "cta": "Me contacter"
+  },
+  "hero": {
+    "badge": "Disponible pour des missions · Abidjan",
+    "title": "Je construis des {hl|produits web} de bout en bout.",
+    "lede": "Développeur web et mobile basé à Abidjan. Je transforme un besoin métier — un restaurant, une coopérative, un média — en application claire : modèle de données, interface, mise en ligne.",
+    "primary": {
+      "label": "Voir mes projets",
+      "href": "#projets"
+    },
+    "secondary": {
+      "label": "Discuter d'un projet",
+      "href": "#contact"
+    },
+    "cvLabel": "CV",
+    "facts": [
+      {
+        "label": "Basé à",
+        "value": "Abidjan, CI"
+      },
+      {
+        "label": "Spécialité",
+        "value": "Web & data"
+      },
+      {
+        "label": "Outils",
+        "value": "Next.js · FastAPI"
+      }
+    ],
+    "console": {
+      "aria": "Terminal affichant le profil : développeur web et mobile, stack Next.js, React, TypeScript, Tailwind, Python, FastAPI, SQLite, Node.js, Docker, et état ouvert aux missions.",
+      "title": "angel@abidjan — ~/projets",
+      "lines": [
+        {
+          "kind": "cmd",
+          "cmd": "whoami",
+          "arg": "",
+          "text": ""
+        },
+        {
+          "kind": "out",
+          "cmd": "",
+          "arg": "",
+          "text": "angel-digbeu {dim|·} développeur web & mobile"
+        },
+        {
+          "kind": "cmd",
+          "cmd": "cat stack.txt",
+          "arg": "",
+          "text": ""
+        },
+        {
+          "kind": "out",
+          "cmd": "",
+          "arg": "",
+          "text": "Next.js 15   React 19   TypeScript"
+        },
+        {
+          "kind": "out",
+          "cmd": "",
+          "arg": "",
+          "text": "Tailwind 4   Python     FastAPI"
+        },
+        {
+          "kind": "out",
+          "cmd": "",
+          "arg": "",
+          "text": "SQLite       Node.js    Docker"
+        },
+        {
+          "kind": "cmd",
+          "cmd": "ls",
+          "arg": "~/projets",
+          "text": ""
+        },
+        {
+          "kind": "out",
+          "cmd": "",
+          "arg": "",
+          "text": "vexora-resto/ {cm|# plateforme restaurants}"
+        },
+        {
+          "kind": "out",
+          "cmd": "",
+          "arg": "",
+          "text": "vexora-media/ {cm|# moteur vidéo local}"
+        },
+        {
+          "kind": "out",
+          "cmd": "",
+          "arg": "",
+          "text": "sites-vitrines/ {cm|# egi-ci, ae-training}"
+        },
+        {
+          "kind": "cmd",
+          "cmd": "echo",
+          "arg": "$STATUT",
+          "text": ""
+        },
+        {
+          "kind": "out",
+          "cmd": "",
+          "arg": "",
+          "text": "{ok|▪} ouvert aux missions — Abidjan{caret}"
+        }
+      ]
+    },
+    "chips": [
+      "Interface & données",
+      "Livraison autonome"
+    ]
+  },
+  "marquee": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Python",
+    "FastAPI",
+    "SQLite",
+    "Node.js",
+    "Docker",
+    "Git",
+    "MERISE",
+    "FFmpeg"
+  ],
+  "projects": {
+    "head": {
+      "num": "01",
+      "eyebrow": "Projets",
+      "title": "Ce que je construis",
+      "lede": "Des plateformes métier, de l'outillage qui tourne en local et des sites vitrines."
+    },
+    "featured": {
+      "enabled": true,
+      "eyebrow": "Projet à la une",
+      "title": "Vexora Resto",
+      "description": "Plateforme multi-restaurants pour Toumodi : une place de marché qui référence les adresses, une page publique par restaurant avec commande envoyée sur WhatsApp, et un espace restaurateur pour piloter carte, commandes et ventes.",
+      "bullets": [
+        "Trois espaces distincts : client, restaurateur, console plateforme",
+        "Commande transmise directement sur le WhatsApp du restaurant",
+        "Offres et abonnements Mobile Money, e-mails transactionnels, Docker"
+      ],
+      "tags": [
+        "Next.js 15",
+        "React 19",
+        "TypeScript",
+        "Tailwind 4",
+        "Docker"
+      ],
+      "image": {
+        "src": "assets/img/vexora-dashboard.png",
+        "alt": "Tableau de bord d'administration : commandes du jour, recettes sur sept jours, plats les plus vendus et dernières commandes en francs CFA.",
+        "width": 1280,
+        "height": 800
+      },
+      "phone": {
+        "src": "assets/img/vexora-mobile.jpg",
+        "alt": "Version mobile du site restaurant : la carte et le panier de commande.",
+        "width": 420,
+        "height": 909
+      },
+      "note": "Code privé — démonstration sur demande.",
+      "noteLinkLabel": "Écrire un message",
+      "noteLinkHref": "#contact"
+    },
+    "subtitle": "Autres réalisations",
+    "allLabel": "Tout",
+    "categories": [
+      {
+        "id": "web",
+        "label": "Web"
+      },
+      {
+        "id": "outils",
+        "label": "Outils"
+      }
+    ],
+    "emptyText": "Aucun projet dans cette famille pour l'instant.",
+    "cards": [
+      {
+        "category": "web",
+        "chip": "Web",
+        "title": "Egi-ci",
+        "sub": "site vitrine",
+        "description": "Site institutionnel en HTML et CSS : structure de pages, styles sur mesure et jeux d'assets optimisés pour un chargement rapide.",
+        "tags": [
+          "HTML",
+          "CSS",
+          "Responsive"
+        ],
+        "image": {
+          "src": "assets/img/egi-ci.jpg",
+          "alt": "Page d'accueil du site EGI-CI : bandeau de navigation, titre « Construire. Électrifier. Connecter. » et équipe sur chantier.",
+          "width": 1000,
+          "height": 625
+        },
+        "links": [
+          {
+            "label": "Code",
+            "url": "https://github.com/LionelD145/Egi-ci-site"
+          }
+        ],
+        "muted": "",
+        "kind": ""
+      },
+      {
+        "category": "web",
+        "chip": "Web",
+        "title": "AE Training",
+        "sub": "club basket",
+        "description": "Site vitrine d'un club d'entraînement basket : présentation des séances, galerie et contact. JavaScript natif, mise en page responsive, publié sur GitHub Pages.",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "GitHub Pages"
+        ],
+        "image": {
+          "src": "assets/img/ae-training.jpg",
+          "alt": "Page d'accueil du site A&E Training : grand titre, joueur de basket en action et bouton « Voir le programme ».",
+          "width": 1000,
+          "height": 625
+        },
+        "links": [
+          {
+            "label": "Démo",
+            "url": "https://lioneld145.github.io/AE-training-/"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/LionelD145/AE-training-"
+          }
+        ],
+        "muted": "",
+        "kind": ""
+      }
+    ]
+  },
+  "about": {
+    "head": {
+      "num": "02",
+      "eyebrow": "À propos",
+      "title": "Un développeur de terrain"
+    },
+    "lead": "Je m'appelle Angel, développeur web et mobile basé à Abidjan. Je travaille sur toute la chaîne : comprendre le métier, modéliser les données, construire l'interface, puis livrer et maintenir.",
+    "body": "Mes projets récents viennent du terrain ivoirien : une plateforme de commande pour des restaurants, un moteur de production vidéo pour un média gaming et des sites vitrines pour des entreprises locales. J'aime les outils qui tournent en local, sans dépendance inutile, et les interfaces qui restent lisibles sur un téléphone d'entrée de gamme.",
+    "skills": [
+      {
+        "label": "Frontend",
+        "value": "HTML · CSS · JavaScript · TypeScript · React 19 · Next.js 15 · Tailwind CSS 4"
+      },
+      {
+        "label": "Backend & données",
+        "value": "Node.js · Python · FastAPI · SQLite · SQL · API REST"
+      },
+      {
+        "label": "Système & outillage",
+        "value": "Git · GitHub · Docker · FFmpeg · PowerShell · automatisation de tâches"
+      },
+      {
+        "label": "Méthode",
+        "value": "MERISE (MCD / MLD) · analyse de besoins · maquettage · rédaction technique"
+      }
+    ],
+    "card": {
+      "mark": "A",
+      "name": "Angel Ionel Digbeu",
+      "role": "Développeur web & mobile",
+      "where": "Abidjan, Côte d'Ivoire",
+      "state": "Ouvert aux missions freelance"
+    },
+    "stats": [
+      {
+        "num": "05",
+        "label": "Projets réalisés",
+        "auto": false
+      },
+      {
+        "num": "05",
+        "label": "Dépôts publics",
+        "auto": true
+      },
+      {
+        "num": "12",
+        "label": "Technologies",
+        "auto": false
+      },
+      {
+        "num": "2",
+        "label": "Sites en ligne",
+        "auto": false
+      }
+    ]
+  },
+  "timeline": {
+    "head": {
+      "num": "03",
+      "eyebrow": "Parcours",
+      "title": "Les étapes récentes"
+    },
+    "items": [
+      {
+        "year": "2026",
+        "title": "Vexora Resto — plateforme multi-restaurants",
+        "description": "Conception et développement complet : place de marché, pages restaurant, commande WhatsApp, espace restaurateur, console d'exploitation et abonnements.",
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind",
+          "Docker"
+        ]
+      },
+      {
+        "year": "2025 — 2026",
+        "title": "VEXORA — moteur de production média",
+        "description": "Socle technique d'un média gaming : tableau de bord FastAPI, base SQLite, worker FFmpeg, sauvegardes et garde-fous de sécurité.",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "SQLite",
+          "FFmpeg"
+        ]
+      },
+      {
+        "year": "2025",
+        "title": "Premiers dépôts publics",
+        "description": "Sites vitrines et exercices en HTML, CSS et JavaScript, dont AE Training et Egi-ci, publiés et versionnés sur GitHub.",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Git"
+        ]
+      }
+    ]
+  },
+  "github": {
+    "head": {
+      "num": "04",
+      "eyebrow": "GitHub",
+      "title": "Dépôts publics",
+      "lede": "Liste synchronisée avec le compte GitHub. Les projets plus récents sont encore en local et sortiront prochainement."
+    },
+    "user": "LionelD145",
+    "buttonLabel": "@LionelD145",
+    "buttonUrl": "https://github.com/LionelD145",
+    "stats": {
+      "count": 5,
+      "languages": 3,
+      "since": "mars 2025"
+    },
+    "repos": [
+      {
+        "name": "AE-training-",
+        "url": "https://github.com/LionelD145/AE-training-",
+        "language": "JavaScript",
+        "color": "",
+        "description": "Site d'entraînement basket.",
+        "updated": "novembre 2025",
+        "homepage": "https://lioneld145.github.io/AE-training-/"
+      },
+      {
+        "name": "Egi-ci-site",
+        "url": "https://github.com/LionelD145/Egi-ci-site",
+        "language": "HTML",
+        "color": "",
+        "description": "Site institutionnel en HTML.",
+        "updated": "octobre 2026",
+        "homepage": ""
+      }
+    ],
+    "note": "Pour rafraîchir cette liste : {code|npm run sync} dans le dossier du site."
+  },
+  "contact": {
+    "head": {
+      "num": "05",
+      "eyebrow": "Contact",
+      "title": ""
+    },
+    "title": "Un projet à cadrer ?{br}{hl|Parlons-en.}",
+    "lede": "Disponible pour des missions freelance à Abidjan et à distance. Réponse sous 24 heures ouvrées.",
+    "email": "angelioneldigbeu@gmail.com",
+    "copyLabel": "Copier l'adresse",
+    "cvLabel": "Télécharger le CV",
+    "githubLabel": "github.com/LionelD145",
+    "githubUrl": "https://github.com/LionelD145",
+    "location": "Abidjan, Côte d'Ivoire"
+  },
+  "footer": {
+    "name": "Angel Ionel Digbeu",
+    "mark": "A",
+    "note": "Conçu et codé à Abidjan · ",
+    "topLabel": "Retour en haut"
+  }
+}

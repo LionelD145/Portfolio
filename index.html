@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="fr" data-theme="dark" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Angel Ionel Digbeu — Développeur web &amp; mobile à Abidjan</title>
+<meta name="description" content="Portfolio d'Angel Ionel Digbeu, développeur web et mobile à Abidjan : plateformes métier, outillage local et sites vitrines. Next.js, React, TypeScript, Python et FastAPI.">
+<meta name="author" content="Angel Ionel Digbeu">
+<meta name="theme-color" content="#0b0908" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#faf6f0" media="(prefers-color-scheme: light)">
+<link rel="canonical" href="https://lioneld145.github.io/">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Angel Ionel Digbeu — Développeur web &amp; mobile">
+<meta property="og:description" content="Plateformes métier, outillage local et sites vitrines. Conçu à Abidjan, Côte d'Ivoire.">
+<meta property="og:url" content="https://lioneld145.github.io/">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Aperçu du portfolio : titre, terminal de présentation et projets.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Angel Ionel Digbeu — Développeur web &amp; mobile">
+<meta name="twitter:description" content="Plateformes métier, outillage local et sites vitrines. Conçu à Abidjan, Côte d'Ivoire.">
+<meta name="twitter:image" content="assets/img/og-image.jpg">
+
+<script>
+  // Applique le thème avant le premier rendu pour éviter tout flash.
+  (function () {
+    var root = document.documentElement;
+    root.classList.remove('no-js');
+    root.classList.add('js');
+    var stored = null;
+    try { stored = localStorage.getItem('theme'); } catch (e) {}
+    var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+    root.dataset.theme = stored || (prefersLight ? 'light' : 'dark');
+  })();
+</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ===================== Icônes ===================== -->
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13"/><path d="m12 5 7 7-7 7"/></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.1.82-.26.82-.58v-2c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.39 1.24-3.23-.13-.3-.54-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.29-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.92 1.24 3.23 0 4.62-2.81 5.64-5.49 5.94.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.6A8.6 8.6 0 1 1 9.4 3.5a6.8 6.8 0 0 0 11.1 11.1Z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3.5 7h17M3.5 12h17M3.5 17h17"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11.5" height="11.5" rx="2.5"/><path d="M15 5.5A2.5 2.5 0 0 0 12.5 3h-7A2.5 2.5 0 0 0 3 5.5v7A2.5 2.5 0 0 0 5.5 15"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m4.5 12.5 5 5 10-11"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8.5 8-4.5 4 4.5 4"/><path d="m15.5 8 4.5 4-4.5 4"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v10.5"/><path d="m7.6 10.1 4.4 4.4 4.4-4.4"/><path d="M4.5 20h15"/></symbol>
+</svg>
+
+<!-- ===================== Navigation ===================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="#haut" aria-label="Retour en haut — Angel Ionel Digbeu">
+      <span class="brand__mark" aria-hidden="true">A</span>
+      <span class="brand__name">Angel Digbeu</span>
+    </a>
+
+    <nav class="nav__links" id="menu" aria-label="Navigation principale">
+      <a href="#projets">Projets</a>
+      <a href="#apropos">À propos</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#github">GitHub</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Basculer en thème clair" aria-pressed="false">
+        <svg class="i-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        <svg class="i-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+      </button>
+      <a class="btn btn--primary btn--sm nav__cta" href="#contact">Me contacter</a>
+      <button class="icon-btn nav__burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+        <svg class="i-menu" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="i-close" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="contenu">
+
+<!-- ===================== Hero ===================== -->
+<section class="hero" id="haut">
+  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="hero__spot" aria-hidden="true"></div>
+
+  <div class="container hero__inner">
+    <div class="hero__copy">
+      <p class="badge">
+        <span class="badge__dot" aria-hidden="true"></span>
+        Disponible pour des missions · Abidjan
+      </p>
+
+      <h1 class="hero__title">
+        Je construis des <span class="hl">produits web</span> de&nbsp;bout&nbsp;en&nbsp;bout.
+      </h1>
+
+      <p class="hero__lede">
+        Développeur web et mobile basé à Abidjan. Je transforme un besoin métier — un restaurant, une coopérative, un média — en application claire&nbsp;: modèle de données, interface, mise en ligne.
+      </p>
+
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#projets">
+          Voir mes projets
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+        <a class="btn btn--ghost" href="#contact">Discuter d'un projet</a>
+        <a class="btn btn--ghost" href="assets/docs/cv.pdf" download="CV-Angel-Digbeu.pdf">
+          <svg aria-hidden="true"><use href="#i-download"/></svg>
+          CV
+        </a>
+      </div>
+
+      <dl class="hero__facts">
+        <div>
+          <dt>Basé à</dt>
+          <dd>Abidjan, CI</dd>
+        </div>
+        <div>
+          <dt>Spécialité</dt>
+          <dd>Web &amp; data</dd>
+        </div>
+        <div>
+          <dt>Outils</dt>
+          <dd>Next.js · FastAPI</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="hero__panel">
+      <div class="console" role="img" aria-label="Terminal affichant le profil : développeur web et mobile, stack Next.js, React, TypeScript, Tailwind, Python, FastAPI, SQLite, Node.js, Docker, et état ouvert aux missions.">
+        <div class="console__bar">
+          <span class="console__dot"></span>
+          <span class="console__dot"></span>
+          <span class="console__dot"></span>
+          <em>angel@abidjan — ~/projets</em>
+        </div>
+        <div class="console__body">
+          <p><span class="p">$</span> <span class="cmd">whoami</span></p>
+          <p class="out">angel-digbeu <span class="dim">·</span> développeur web &amp; mobile</p>
+          <p><span class="p">$</span> <span class="cmd">cat stack.txt</span></p>
+          <p class="out">Next.js 15&nbsp;&nbsp; React 19&nbsp;&nbsp; TypeScript</p>
+          <p class="out">Tailwind 4&nbsp;&nbsp; Python&nbsp;&nbsp;&nbsp;&nbsp; FastAPI</p>
+          <p class="out">SQLite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Node.js&nbsp;&nbsp;&nbsp; Docker</p>
+          <p><span class="p">$</span> <span class="cmd">ls</span> <span class="arg">~/projets</span></p>
+          <p class="out">vexora-resto/ <span class="cm"># plateforme restaurants</span></p>
+          <p class="out">vexora-media/ <span class="cm"># moteur vidéo local</span></p>
+          <p class="out">sites-vitrines/ <span class="cm"># egi-ci, ae-training</span></p>
+          <p><span class="p">$</span> <span class="cmd">echo</span> <span class="arg">$STATUT</span></p>
+          <p class="out"><span class="ok">▪</span> ouvert aux missions — Abidjan<span class="caret" aria-hidden="true"></span></p>
+        </div>
+      </div>
+
+      <ul class="hero__chips" aria-label="Points forts">
+        <li>Interface &amp; données</li>
+        <li>Livraison autonome</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Bandeau technos ===================== -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span class="marquee__group">
+      <span>Next.js</span><span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>Python</span><span>FastAPI</span><span>SQLite</span><span>Node.js</span><span>Docker</span><span>Git</span><span>MERISE</span><span>FFmpeg</span>
+    </span>
+    <span class="marquee__group">
+      <span>Next.js</span><span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>Python</span><span>FastAPI</span><span>SQLite</span><span>Node.js</span><span>Docker</span><span>Git</span><span>MERISE</span><span>FFmpeg</span>
+    </span>
+  </div>
+</div>
+
+<!-- ===================== Projets ===================== -->
+<section class="section" id="projets">
+  <div class="container">
+    <div class="section__head reveal">
+      <p class="eyebrow"><span class="eyebrow__num">01</span> Projets</p>
+      <h2 class="section__title">Ce que je construis</h2>
+      <p class="section__lede">
+        Des plateformes métier, de l'outillage qui tourne en local et des sites vitrines.
+      </p>
+    </div>
+
+    <article class="featured reveal">
+      <div class="featured__media">
+        <img class="featured__shot" src="assets/img/vexora-dashboard.png" width="1280" height="800" loading="eager" decoding="async"
+             alt="Tableau de bord d'administration : commandes du jour, recettes sur sept jours, plats les plus vendus et dernières commandes en francs CFA.">
+        <img class="featured__phone" src="assets/img/vexora-mobile.jpg" width="420" height="909" loading="eager" decoding="async"
+             alt="Version mobile du site restaurant : la carte et le panier de commande.">
+      </div>
+
+      <div class="featured__body">
+        <p class="eyebrow">Projet à la une</p>
+        <h3 class="featured__title">Vexora Resto</h3>
+        <p class="featured__desc">
+          Plateforme multi-restaurants pour Toumodi&nbsp;: une place de marché qui référence les adresses, une page publique par restaurant avec commande envoyée sur WhatsApp, et un espace restaurateur pour piloter carte, commandes et ventes.
+        </p>
+        <ul class="feature-list">
+          <li>Trois espaces distincts&nbsp;: client, restaurateur, console plateforme</li>
+          <li>Commande transmise directement sur le WhatsApp du restaurant</li>
+          <li>Offres et abonnements Mobile Money, e-mails transactionnels, Docker</li>
+        </ul>
+        <ul class="tags"><li>Next.js 15</li><li>React 19</li><li>TypeScript</li><li>Tailwind 4</li><li>Docker</li></ul>
+        <p class="featured__note">
+          <span class="lock" aria-hidden="true">◆</span>
+          Code privé — démonstration sur demande.
+          <a href="#contact">Écrire un message</a>
+        </p>
+      </div>
+    </article>
+
+    <div class="projects__bar reveal">
+      <h3 class="projects__subtitle">Autres réalisations</h3>
+      <div class="filters" role="group" aria-label="Filtrer les projets par famille">
+        <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">Tout <span>2</span></button>
+        <button class="filter" type="button" data-filter="web" aria-pressed="false">Web <span>2</span></button>
+        <button class="filter" type="button" data-filter="outils" aria-pressed="false">Outils <span>0</span></button>
+      </div>
+    </div>
+
+    <div class="grid" id="projects-grid">
+
+      <article class="card reveal" data-cat="web">
+        <figure class="card__media">
+          <img src="assets/img/egi-ci.jpg" width="1000" height="625" loading="lazy" decoding="async"
+             alt="Page d'accueil du site EGI-CI : bandeau de navigation, titre « Construire. Électrifier. Connecter. » et équipe sur chantier.">
+        </figure>
+        <div class="card__top">
+          <span class="card__index">02</span>
+          <span class="chip">Web</span>
+        </div>
+        <h3 class="card__title">Egi-ci <span class="card__sub">site vitrine</span></h3>
+        <p class="card__desc">
+          Site institutionnel en HTML et CSS&nbsp;: structure de pages, styles sur mesure et jeux d'assets optimisés pour un chargement rapide.
+        </p>
+        <ul class="tags tags--sm"><li>HTML</li><li>CSS</li><li>Responsive</li></ul>
+        <div class="card__foot">
+          <div class="card__links">
+            <a class="link-arrow" href="https://github.com/LionelD145/Egi-ci-site" target="_blank" rel="noopener noreferrer">
+              Code <svg aria-hidden="true"><use href="#i-arrow-up"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="web">
+        <figure class="card__media">
+          <img src="assets/img/ae-training.jpg" width="1000" height="625" loading="lazy" decoding="async"
+             alt="Page d'accueil du site A&amp;E Training : grand titre, joueur de basket en action et bouton « Voir le programme ».">
+        </figure>
+        <div class="card__top">
+          <span class="card__index">03</span>
+          <span class="chip">Web</span>
+        </div>
+        <h3 class="card__title">AE Training <span class="card__sub">club basket</span></h3>
+        <p class="card__desc">
+          Site vitrine d'un club d'entraînement basket&nbsp;: présentation des séances, galerie et contact. JavaScript natif, mise en page responsive, publié sur GitHub Pages.
+        </p>
+        <ul class="tags tags--sm"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub Pages</li></ul>
+        <div class="card__foot">
+          <div class="card__links">
+            <a class="link-arrow" href="https://lioneld145.github.io/AE-training-/" target="_blank" rel="noopener noreferrer">
+              Démo <svg aria-hidden="true"><use href="#i-arrow-up"/></svg>
+            </a>
+            <a class="link-arrow" href="https://github.com/LionelD145/AE-training-" target="_blank" rel="noopener noreferrer">
+              Code <svg aria-hidden="true"><use href="#i-arrow-up"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="empty" id="projects-empty" hidden>Aucun projet dans cette famille pour l'instant.</p>
+  </div>
+</section>
+
+<!-- ===================== À propos ===================== -->
+<section class="section section--alt" id="apropos">
+  <div class="container">
+    <div class="section__head reveal">
+      <p class="eyebrow"><span class="eyebrow__num">02</span> À propos</p>
+      <h2 class="section__title">Un développeur de terrain</h2>
+    </div>
+
+    <div class="about">
+      <div class="about__text reveal">
+        <p class="about__lead">
+          Je m'appelle Angel, développeur web et mobile basé à Abidjan. Je travaille sur toute la chaîne&nbsp;: comprendre le métier, modéliser les données, construire l'interface, puis livrer et maintenir.
+        </p>
+        <p>
+          Mes projets récents viennent du terrain ivoirien&nbsp;: une plateforme de commande pour des restaurants, un moteur de production vidéo pour un média gaming et des sites vitrines pour des entreprises locales. J'aime les outils qui tournent en local, sans dépendance inutile, et les interfaces qui restent lisibles sur un téléphone d'entrée de gamme.
+        </p>
+
+        <dl class="skills">
+          <div class="skills__row">
+            <dt>Frontend</dt>
+            <dd>HTML · CSS · JavaScript · TypeScript · React 19 · Next.js 15 · Tailwind CSS 4</dd>
+          </div>
+          <div class="skills__row">
+            <dt>Backend &amp; données</dt>
+            <dd>Node.js · Python · FastAPI · SQLite · SQL · API REST</dd>
+          </div>
+          <div class="skills__row">
+            <dt>Système &amp; outillage</dt>
+            <dd>Git · GitHub · Docker · FFmpeg · PowerShell · automatisation de tâches</dd>
+          </div>
+          <div class="skills__row">
+            <dt>Méthode</dt>
+            <dd>MERISE (MCD / MLD) · analyse de besoins · maquettage · rédaction technique</dd>
+          </div>
+        </dl>
+      </div>
+
+      <aside class="about__side reveal">
+        <div class="id-card">
+          <div class="id-card__mark" aria-hidden="true">A</div>
+          <div>
+            <p class="id-card__name">Angel Ionel Digbeu</p>
+            <p class="id-card__role">Développeur web &amp; mobile</p>
+          </div>
+          <p class="id-card__where">
+            <svg aria-hidden="true"><use href="#i-pin"/></svg>
+            Abidjan, Côte d'Ivoire
+          </p>
+          <p class="id-card__state">
+            <span class="badge__dot" aria-hidden="true"></span>
+            Ouvert aux missions freelance
+          </p>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat__num">05</span>
+            <span class="stat__label">Projets réalisés</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-repo-count>05</span>
+            <span class="stat__label">Dépôts publics</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">12</span>
+            <span class="stat__label">Technologies</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">2</span>
+            <span class="stat__label">Sites en ligne</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Parcours ===================== -->
+<section class="section" id="parcours">
+  <div class="container">
+    <div class="section__head reveal">
+      <p class="eyebrow"><span class="eyebrow__num">03</span> Parcours</p>
+      <h2 class="section__title">Les étapes récentes</h2>
+    </div>
+
+    <ol class="timeline">
+      <li class="reveal">
+        <p class="timeline__year">2026</p>
+        <div class="timeline__body">
+          <h3>Vexora Resto — plateforme multi-restaurants</h3>
+          <p>
+            Conception et développement complet&nbsp;: place de marché, pages restaurant, commande WhatsApp, espace restaurateur, console d'exploitation et abonnements.
+          </p>
+          <ul class="tags tags--sm"><li>Next.js</li><li>TypeScript</li><li>Tailwind</li><li>Docker</li></ul>
+        </div>
+      </li>
+      <li class="reveal">
+        <p class="timeline__year">2025 — 2026</p>
+        <div class="timeline__body">
+          <h3>VEXORA — moteur de production média</h3>
+          <p>
+            Socle technique d'un média gaming&nbsp;: tableau de bord FastAPI, base SQLite, worker FFmpeg, sauvegardes et garde-fous de sécurité.
+          </p>
+          <ul class="tags tags--sm"><li>Python</li><li>FastAPI</li><li>SQLite</li><li>FFmpeg</li></ul>
+        </div>
+      </li>
+      <li class="reveal">
+        <p class="timeline__year">2025</p>
+        <div class="timeline__body">
+          <h3>Premiers dépôts publics</h3>
+          <p>
+            Sites vitrines et exercices en HTML, CSS et JavaScript, dont AE Training et Egi-ci, publiés et versionnés sur GitHub.
+          </p>
+          <ul class="tags tags--sm"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li></ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===================== GitHub ===================== -->
+<section class="section section--alt" id="github">
+  <div class="container">
+    <div class="section__head section__head--row reveal">
+      <div>
+        <p class="eyebrow"><span class="eyebrow__num">04</span> GitHub</p>
+        <h2 class="section__title">Dépôts publics</h2>
+        <p class="section__lede">
+        Liste synchronisée avec le compte GitHub. Les projets plus récents sont encore en local et sortiront prochainement.
+      </p>
+      </div>
+      <a class="btn btn--ghost btn--sm" href="https://github.com/LionelD145" target="_blank" rel="noopener noreferrer">
+        <svg aria-hidden="true"><use href="#i-github"/></svg>
+        @LionelD145
+      </a>
+    </div>
+
+    <!-- BEGIN:GITHUB-STATS — régénéré depuis data/content.json -->
+    <div class="gh-stats reveal">
+      <p><strong>5</strong> dépôts publics</p>
+      <p><strong>3</strong> langages</p>
+      <p>compte depuis <strong>mars 2025</strong></p>
+    </div>
+    <!-- END:GITHUB-STATS -->
+
+    <!-- BEGIN:GITHUB-REPOS — régénéré depuis data/content.json -->
+    <ol class="repos" id="repos">
+      <li class="repo reveal">
+        <div class="repo__head">
+          <a class="repo__name" href="https://github.com/LionelD145/AE-training-" target="_blank" rel="noopener noreferrer">
+            AE-training- <svg aria-hidden="true"><use href="#i-arrow-up"/></svg>
+          </a>
+          <span class="lang"><i style="--c:#f1e05a"></i>JavaScript</span>
+        </div>
+        <p class="repo__desc">Site d'entraînement basket.</p>
+        <div class="repo__meta">
+          <span>Mis à jour en novembre 2025</span>
+          <a href="https://lioneld145.github.io/AE-training-/" target="_blank" rel="noopener noreferrer">Site en ligne</a>
+        </div>
+      </li>
+      <li class="repo reveal">
+        <div class="repo__head">
+          <a class="repo__name" href="https://github.com/LionelD145/Egi-ci-site" target="_blank" rel="noopener noreferrer">
+            Egi-ci-site <svg aria-hidden="true"><use href="#i-arrow-up"/></svg>
+          </a>
+          <span class="lang"><i style="--c:#e34c26"></i>HTML</span>
+        </div>
+        <p class="repo__desc">Site institutionnel en HTML.</p>
+        <div class="repo__meta">
+          <span>Mis à jour en octobre 2026</span>
+        </div>
+      </li>
+    </ol>
+    <!-- END:GITHUB-REPOS -->
+
+    <p class="gh-note">
+      <svg aria-hidden="true"><use href="#i-code"/></svg>
+      Pour rafraîchir cette liste&nbsp;: <code>npm run sync</code> dans le dossier du site.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== Contact ===================== -->
+<section class="section section--contact" id="contact">
+  <div class="container">
+    <div class="contact reveal">
+      <p class="eyebrow"><span class="eyebrow__num">05</span> Contact</p>
+      <h2 class="contact__title">
+        Un projet à cadrer&nbsp;?<br><span class="hl">Parlons-en.</span>
+      </h2>
+      <p class="contact__lede">
+        Disponible pour des missions freelance à Abidjan et à distance. Réponse sous 24&nbsp;heures ouvrées.
+      </p>
+
+      <div class="contact__actions">
+        <a class="btn btn--primary btn--lg" href="mailto:angelioneldigbeu@gmail.com">
+          <svg aria-hidden="true"><use href="#i-mail"/></svg>
+          angelioneldigbeu@gmail.com
+        </a>
+        <button class="btn btn--ghost btn--lg" type="button" data-copy="angelioneldigbeu@gmail.com">
+          <svg aria-hidden="true"><use href="#i-copy"/></svg>
+          <span>Copier l'adresse</span>
+        </button>
+        <a class="btn btn--ghost btn--lg" href="assets/docs/cv.pdf" download="CV-Angel-Digbeu.pdf">
+          <svg aria-hidden="true"><use href="#i-download"/></svg>
+          Télécharger le CV
+        </a>
+      </div>
+
+      <ul class="contact__links">
+        <li>
+          <a href="https://github.com/LionelD145" target="_blank" rel="noopener noreferrer">
+            <svg aria-hidden="true"><use href="#i-github"/></svg>
+            github.com/LionelD145
+          </a>
+        </li>
+        <li>
+          <span>
+            <svg aria-hidden="true"><use href="#i-pin"/></svg>
+            Abidjan, Côte d'Ivoire
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="footer__brand">
+      <span class="brand__mark brand__mark--sm" aria-hidden="true">A</span>
+      Angel Ionel Digbeu
+    </p>
+    <p class="footer__note">Conçu et codé à Abidjan · <span id="year">2026</span></p>
+    <a class="footer__top" href="#haut">
+      Retour en haut
+      <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+    </a>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

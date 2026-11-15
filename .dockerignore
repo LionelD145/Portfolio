@@ -1,0 +1,5 @@
+data/auth.json
+data/secret.key
+data/backups
+node_modules
+.env

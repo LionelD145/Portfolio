@@ -1,0 +1,7 @@
+# Secrets et état du serveur d'administration — ne jamais publier
+data/auth.json
+data/secret.key
+data/backups/
+*.tmp
+.env
+node_modules/
