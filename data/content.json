@@ -276,6 +276,49 @@
         ],
         "muted": "",
         "kind": ""
+      },
+      {
+        "category": "web",
+        "chip": "Web",
+        "title": "JAY-HAIR",
+        "sub": "",
+        "description": "boutique e-commerce complète pour une cliente avec plateforme admin ",
+        "tags": [
+          "php/mysql"
+        ],
+        "image": {
+          "src": "assets/img/capture-d-ecran-2026-11-15-121732.png",
+          "alt": "Images de la landing page du site ",
+          "width": 1919,
+          "height": 946
+        },
+        "links": [
+          {
+            "label": "Démo",
+            "url": "https://https://jay-hair.nfy.fyi/?i=1"
+          }
+        ],
+        "muted": "",
+        "kind": ""
+      },
+      {
+        "category": "web",
+        "chip": "Web",
+        "title": "Coopagri-aza",
+        "sub": "",
+        "description": "Application web de diagnostique du swollenshoot chez le cacaoyé ",
+        "tags": [
+          "html/css, react, espressjs, python, pyth"
+        ],
+        "image": {
+          "src": "assets/img/02-tableau-de-bord-producteur.png",
+          "alt": "",
+          "width": 1440,
+          "height": 1000
+        },
+        "links": [],
+        "muted": "",
+        "kind": ""
       }
     ]
   },
@@ -285,24 +328,28 @@
       "eyebrow": "À propos",
       "title": "Un développeur de terrain"
     },
-    "lead": "Je m'appelle Angel, développeur web et mobile basé à Abidjan. Je travaille sur toute la chaîne : comprendre le métier, modéliser les données, construire l'interface, puis livrer et maintenir.",
-    "body": "Mes projets récents viennent du terrain ivoirien : une plateforme de commande pour des restaurants, un moteur de production vidéo pour un média gaming et des sites vitrines pour des entreprises locales. J'aime les outils qui tournent en local, sans dépendance inutile, et les interfaces qui restent lisibles sur un téléphone d'entrée de gamme.",
+    "lead": "Je m'appelle Ange, développeur web basé à Abidjan. Je travaille sur toute la chaîne : comprendre le métier, modéliser les données, construire l'interface, puis livrer et maintenir.",
+    "body": "Mes projets récents viennent du terrain ivoirien : une plateforme de commande pour des restaurants, un moteur de production vidéo pour un média gaming (pas finalisé) et des sites vitrines pour des entreprises locales. J'aime les outils qui tournent en local, sans dépendance inutile, et les interfaces qui restent lisibles sur un téléphone d'entrée de gamme.",
     "skills": [
       {
         "label": "Frontend",
         "value": "HTML · CSS · JavaScript · TypeScript · React 19 · Next.js 15 · Tailwind CSS 4"
       },
       {
-        "label": "Backend & données",
-        "value": "Node.js · Python · FastAPI · SQLite · SQL · API REST"
-      },
-      {
         "label": "Système & outillage",
         "value": "Git · GitHub · Docker · FFmpeg · PowerShell · automatisation de tâches"
       },
       {
+        "label": "Backend & données",
+        "value": "Node.js · Python · FastAPI · SQLite · SQL · API REST"
+      },
+      {
         "label": "Méthode",
         "value": "MERISE (MCD / MLD) · analyse de besoins · maquettage · rédaction technique"
+      },
+      {
+        "label": "Prompt engenering",
+        "value": "chatgpt,claude,DSH"
       }
     ],
     "card": {
@@ -343,37 +390,10 @@
     },
     "items": [
       {
-        "year": "2026",
-        "title": "Vexora Resto — plateforme multi-restaurants",
-        "description": "Conception et développement complet : place de marché, pages restaurant, commande WhatsApp, espace restaurateur, console d'exploitation et abonnements.",
-        "tags": [
-          "Next.js",
-          "TypeScript",
-          "Tailwind",
-          "Docker"
-        ]
-      },
-      {
-        "year": "2025 — 2026",
-        "title": "VEXORA — moteur de production média",
-        "description": "Socle technique d'un média gaming : tableau de bord FastAPI, base SQLite, worker FFmpeg, sauvegardes et garde-fous de sécurité.",
-        "tags": [
-          "Python",
-          "FastAPI",
-          "SQLite",
-          "FFmpeg"
-        ]
-      },
-      {
-        "year": "2025",
-        "title": "Premiers dépôts publics",
-        "description": "Sites vitrines et exercices en HTML, CSS et JavaScript, dont AE Training et Egi-ci, publiés et versionnés sur GitHub.",
-        "tags": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "Git"
-        ]
+        "year": "2024-2025",
+        "title": "Stage a Markel Technologie",
+        "description": "Stage de perfectionnement a markel technology de 6 mois.\n",
+        "tags": []
       }
     ]
   },
@@ -388,28 +408,82 @@
     "buttonLabel": "@LionelD145",
     "buttonUrl": "https://github.com/LionelD145",
     "stats": {
-      "count": 5,
-      "languages": 3,
+      "count": 10,
+      "languages": 4,
       "since": "mars 2025"
     },
     "repos": [
       {
-        "name": "AE-training-",
-        "url": "https://github.com/LionelD145/AE-training-",
+        "name": "projet-fin-L3",
+        "url": "https://github.com/LionelD145/projet-fin-L3",
         "language": "JavaScript",
         "color": "",
-        "description": "Site d'entraînement basket.",
-        "updated": "novembre 2025",
-        "homepage": "https://lioneld145.github.io/AE-training-/"
+        "description": "",
+        "updated": "novembre 2026",
+        "homepage": ""
+      },
+      {
+        "name": "jay-hair-coiffure",
+        "url": "https://github.com/LionelD145/jay-hair-coiffure",
+        "language": "PHP",
+        "color": "",
+        "description": "",
+        "updated": "novembre 2026",
+        "homepage": ""
+      },
+      {
+        "name": "vexora-resto",
+        "url": "https://github.com/LionelD145/vexora-resto",
+        "language": "TypeScript",
+        "color": "",
+        "description": "",
+        "updated": "novembre 2026",
+        "homepage": ""
+      },
+      {
+        "name": "vexora-prospect",
+        "url": "https://github.com/LionelD145/vexora-prospect",
+        "language": "PHP",
+        "color": "",
+        "description": "",
+        "updated": "novembre 2026",
+        "homepage": ""
+      },
+      {
+        "name": "Portfolio",
+        "url": "https://github.com/LionelD145/Portfolio",
+        "language": "JavaScript",
+        "color": "",
+        "description": "",
+        "updated": "novembre 2026",
+        "homepage": ""
       },
       {
         "name": "Egi-ci-site",
         "url": "https://github.com/LionelD145/Egi-ci-site",
         "language": "HTML",
         "color": "",
-        "description": "Site institutionnel en HTML.",
+        "description": "",
         "updated": "octobre 2026",
         "homepage": ""
+      },
+      {
+        "name": "le-patio-",
+        "url": "https://github.com/LionelD145/le-patio-",
+        "language": "HTML",
+        "color": "",
+        "description": "",
+        "updated": "septembre 2026",
+        "homepage": ""
+      },
+      {
+        "name": "AE-training-",
+        "url": "https://github.com/LionelD145/AE-training-",
+        "language": "JavaScript",
+        "color": "",
+        "description": "site d'entrainement basket",
+        "updated": "novembre 2025",
+        "homepage": "https://lioneld145.github.io/AE-training-/"
       }
     ],
     "note": "Pour rafraîchir cette liste : {code|npm run sync} dans le dossier du site."
